@@ -1,0 +1,78 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<header>
+	<nav>
+		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<div class="internal-links">
+			<HeaderLink href="#about">Sobre mí</HeaderLink>
+			<HeaderLink href="#repos">Repos</HeaderLink>
+			<HeaderLink href="#projects">Proyectos</HeaderLink>
+			<HeaderLink href="#contact">Contáctame</HeaderLink>
+			<!--<HeaderLink href="blog">blog</HeaderLink>-->
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+		padding: 0 1em;
+		background: rgba(255, 255, 255, 0.8);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1000;
+		box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+	}
+	h2 {
+		margin: 0;
+		font-size: 1.2em;
+	}
+
+	h2 a,
+	h2 a.active {
+		text-decoration: none;
+		color: var(--accent-dark);
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 1em 0;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.internal-links {
+		display: flex;
+		gap: 1.5em;
+	}
+	nav a {
+		padding: 0.5em 0;
+		color: var(--text-color);
+		border-bottom: 2px solid transparent;
+		text-decoration: none;
+		transition: all 0.3s ease;
+	}
+	nav a:hover {
+		color: var(--accent);
+		border-bottom-color: var(--accent);
+	}
+	nav a.active {
+		color: var(--accent);
+		border-bottom-color: var(--accent);
+	}
+
+	@media (max-width: 768px) {
+		.internal-links {
+			gap: 1em;
+		}
+		nav {
+			padding: 0.8em 0;
+		}
+	}
+</style>
