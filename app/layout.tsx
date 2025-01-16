@@ -46,7 +46,7 @@ export default function RootLayout({
       <head />
       <body suppressHydrationWarning className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <div className={mono.variable}>
+          <div className={mono.className}>
             <Header />
             <main className="min-h-screen">{children}</main>
             <Footer />
