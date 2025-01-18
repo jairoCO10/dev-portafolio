@@ -39,6 +39,13 @@ export function TechStack() {
               "CQRS", "Domain-Driven Design"
             ]}
           />
+          <TechCategory
+            title="Security & Performance"
+            description="Best practices for secure and fast applications"
+            items={[
+              "wazuh", "Nginx", "SSL", "JWT", "CORS", "CSRF", "Rate Limiting",  "Load Balancing"
+            ]}
+          />
         </div>
       </Container>
     </section>

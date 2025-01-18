@@ -24,7 +24,7 @@ const experiences = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     period: "2021 - 2022",
     company: "Geomastic",
     role: "Ingeniero de software",
@@ -42,6 +42,21 @@ const experiences = [
       "Docker",
       "Git",
       "Servidores Linux"
+    ]
+  },
+  {
+    id: 2,
+    period: "2022 - 2022",
+    company: "Corporación Sociedad Prosperar",
+    role: "Desarrollador web",
+    description: "Desarrolle una web para la Corporación Sociedad Prosperar, una organización sin ánimo de lucro que busca mejorar la calidad de vida de las personas en situación de vulnerabilidad.",
+    achievements: [
+    ],
+    technologies: [
+      "react",
+      "vite",
+      "typescript",
+      "tailwindcss",
     ]
   },
   
