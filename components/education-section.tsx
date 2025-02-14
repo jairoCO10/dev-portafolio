@@ -21,7 +21,7 @@ const education = [
   },
   {
     id: 1,
-    period: "2013 - 2017",
+    period: "2015 - 2021",
     institution: "Universidad de Cordoba",
     degree: "Ingeniería ",
     field: "Sistemas",
