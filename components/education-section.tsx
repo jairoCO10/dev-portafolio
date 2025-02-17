@@ -115,7 +115,7 @@ export function EducationSection() {
   return (
     <section className="py-12">
       <Container>
-        <h2 className="text-3xl font-bold tracking-tight mb-8">Education & Certifications</h2>
+        <h2 className="text-3xl font-bold tracking-tight mb-8">Educacion y Certificacion</h2>
         <div className="grid gap-6 md:grid-cols-2">
           {education.map((edu) => (
             <EducationCard key={edu.id} {...edu} />

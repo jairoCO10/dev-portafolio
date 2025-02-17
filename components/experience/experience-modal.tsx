@@ -38,13 +38,13 @@ export function ExperienceModal({ experience, isOpen, onClose }: ExperienceModal
         </div>
 
         <div>
-          <h3 className="font-medium mb-2">Description</h3>
+          <h3 className="font-medium mb-2">Descripción</h3>
           <p className="text-muted-foreground">{experience.description}</p>
         </div>
 
         {achievements.length > 0 && (
           <div>
-            <h3 className="font-medium mb-2">Key Achievements</h3>
+            <h3 className="font-medium mb-2">Principales logros</h3>
             <ul className="space-y-2">
               {achievements.map((achievement, index) => (
                 <li key={index} className="flex items-start gap-2">
@@ -58,7 +58,7 @@ export function ExperienceModal({ experience, isOpen, onClose }: ExperienceModal
 
         {technologies.length > 0 && (
           <div>
-            <h3 className="font-medium mb-2">Technologies Used</h3>
+            <h3 className="font-medium mb-2">Tecnologías utilizadas</h3>
             <div className="flex flex-wrap gap-2">
               {technologies.map((tech) => (
                 <span

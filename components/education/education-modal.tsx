@@ -35,7 +35,7 @@ export function EducationModal({ education, isOpen, onClose }: EducationModalPro
 
         {achievements.length > 0 && (
           <div>
-            <h3 className="font-medium mb-2">Achievements</h3>
+            <h3 className="font-medium mb-2">Logros</h3>
             <ul className="space-y-2">
               {achievements.map((achievement, index) => (
                 <li key={index} className="flex items-start gap-2">

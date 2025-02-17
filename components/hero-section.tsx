@@ -21,17 +21,24 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-            Desarrollador backend Python
+          Desarrollador Backend Python Php | Especialista en Seguridad Informática
           </h1>
           <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
-            Soy un desarrollador backend y especialista en seguridad informatica cuento con más de 3 años de experiencia en Python y php. 
-            Me especializo en crear APIs RESTful, microservicios y aplicaciones web escalables. Mi enfoque se centra en escribir código limpio, 
-            seguro, mantenible y bien documentado.
+          Soy un desarrollador backend con más de 3 años de experiencia en Python y PHP, especializado en la creación de APIs RESTful, 
+          microservicios y aplicaciones web escalables. Mi enfoque se centra en escribir código limpio, seguro y eficiente, 
+          garantizando soluciones mantenibles y bien documentadas.
           </p>
           <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
             
-            Disfruto resolviendo problemas complejos y aprendiendo nuevas tecnologías. 
-            Actualmente, me encuentro profundizando en arquitecturas cloud-native y DevOps.
+          Tengo un fuerte interés en la seguridad informática, aplicando buenas prácticas de desarrollo seguro para proteger las aplicaciones 
+          y los datos. Disfruto resolviendo problemas complejos, optimizando el rendimiento y explorando nuevas tecnologías para mejorar la 
+          arquitectura y la escalabilidad de los sistemas.
+          </p>
+         
+          <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
+            
+          Actualmente, me encuentro profundizando en arquitecturas cloud-native y DevOps, fortaleciendo mis habilidades en contenedores (Docker, Kubernetes), 
+          automatización e infraestructura en la nube (AWS, Azure, GCP).
           </p>
           <div className="mt-12 flex gap-6">
             <Button size="lg" asChild>

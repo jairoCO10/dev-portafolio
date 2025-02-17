@@ -6,7 +6,7 @@ export function FeaturedProjects() {
   return (
     <section className="py-12">
       <Container>
-        <h2 className="text-3xl font-bold tracking-tight mb-8">Featured Projects</h2>
+        <h2 className="text-3xl font-bold tracking-tight mb-8">Proyectos destacados</h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <ProjectCard
             icons={[

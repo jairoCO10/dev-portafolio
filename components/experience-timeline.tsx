@@ -6,14 +6,14 @@ import { Container } from "@/components/ui/container";
 const experiences = [
   {
     id: 1,
-    period: "2022 - Present",
+    period: "2022 - Presente",
     company: "SipremCol",
     role: "Desarrollador Backend Python",
-    description: "En Sipremcol, he liderado proyectos que combinan desarrollo backend y seguridad informática, implementando soluciones tecnológicas que optimizan procesos críticos en diversos sectores.",
+    description: "En Sipremcol, he liderado proyectos en los que desarrollo backend y seguridad informática convergen para ofrecer soluciones tecnológicas eficientes y seguras, optimizando procesos críticos en diversos sectores.",
     achievements: [
-      "Diseñé e implementé una API de gestión de talento humano, garantizando no solo eficiencia operativa, sino también el cumplimiento de estándares de seguridad para proteger la información sensible",
-      "Desarrollé una plataforma para censos de alumbrado público, implementando controles de acceso y encriptación de datos para mejorar la seguridad en la gestión de infraestructura urbana.",
-      "Migré procesos de PHP a Python, reduciendo los tiempos de respuesta y mejorando la protección de datos en las aplicaciones."
+      "Diseño e implementación de API para gestión de talento humano: Desarrollé una API robusta que optimiza procesos operativos y garantiza el cumplimiento de estándares de seguridad, protegiendo información sensible.",
+      "Plataforma para censos de alumbrado público: Implementé controles de acceso y encriptación de datos, fortaleciendo la seguridad en la gestión de infraestructura urbana y garantizando la integridad de la información.",
+      "Migración de procesos de PHP a Python: Logré una reducción significativa en los tiempos de respuesta, mejorando el rendimiento de las aplicaciones y reforzando la protección de datos con prácticas avanzadas de seguridad."
     ],
     technologies: [
       "Python",
@@ -28,11 +28,11 @@ const experiences = [
     period: "2021 - 2022",
     company: "Geomastic",
     role: "Ingeniero de software",
-    description: "Lideré el desarrollo de una API innovadora desarrollada bajo el framework Django para estudios de suelos en Colombia, asegurando la integridad de los datos y optimizando el flujo de trabajo en proyectos de ingeniería civil.",
+    description: "Lideré el desarrollo de una API innovadora basada en Django para la gestión de estudios de suelos en Colombia, optimizando el flujo de trabajo en proyectos de ingeniería civil y garantizando la integridad y seguridad de los datos geotécnicos.",
     achievements: [
-      "Implementé una API con enfoque en seguridad y eficiencia, utilizando Django y PostgreSQL para garantizar el manejo seguro de grandes volúmenes de datos geotécnicos.",
-      "Diseñé estrategias de respaldo y recuperación de datos, fortaleciendo la resiliencia del sistema.",
-      "Colaboré estrechamente con equipos para alinear los desarrollos tecnológicos con las necesidades del negocio.",
+      "Desarrollo de una API segura y eficiente: Implementé una API con Django y PostgreSQL, optimizada para manejar grandes volúmenes de datos geotécnicos con altos estándares de seguridad y rendimiento.",
+      "Estrategias de respaldo y recuperación de datos: Diseñé e implementé soluciones para fortalecer la resiliencia del sistema, asegurando la protección y disponibilidad de la información crítica.",
+      "Colaboración con equipos multidisciplinarios: Trabajé de manera estrecha con diferentes áreas para alinear las soluciones tecnológicas con los objetivos del negocio, garantizando una integración efectiva en los procesos operativos.",
     ],
     technologies: [
       "Python",

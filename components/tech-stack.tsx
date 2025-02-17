@@ -9,41 +9,40 @@ export function TechStack() {
         <div className="grid gap-6 md:grid-cols-2">
           <TechCategory
             title="Languages & Frameworks"
-            description="Core technologies I work with daily"
+            description="Tecnologías básicas con las que trabajo a diario"
             items={[
               "Python", "Django", "FastAPI", "Flask",
               "SQL", "PHP", "Laravel", "JavaScript"
             ]}
           />
           <TechCategory
-            title="Databases & Caching"
-            description="Data storage and optimization"
+            title="Databases"
+            description="Almacenamiento y optimización de datos"
             items={[
-              "PostgreSQL", "MongoDB", "Redis",
-              "Elasticsearch", "MYSQL", "SQLite"
+              "PostgreSQL", "MongoDB", "MYSQL", "SQLite"
             ]}
           />
           <TechCategory
             title="Infrastructure & DevOps"
             description="Deployment and scaling solutions"
             items={[
-              "Docker", "Kubernetes", "AWS",
+              "Docker",
               "CI/CD", "Prometheus", "Grafana"
             ]}
           />
           <TechCategory
             title="Architecture Patterns"
-            description="Design approaches I implement"
+            description="Enfoques de diseño que implemento"
             items={[
               "Microservices", "RESTful APIs", "MONOLITH",
-              "CQRS", "Domain-Driven Design"
+             
             ]}
           />
           <TechCategory
             title="Security & Performance"
-            description="Best practices for secure and fast applications"
+            description="Mejores prácticas para aplicaciones seguras y rápidas"
             items={[
-              "wazuh", "Nginx", "SSL", "JWT", "CORS", "CSRF", "Rate Limiting",  "Load Balancing"
+              "wazuh", "Nginx", "SSL", "JWT", "CORS", "CSRF",
             ]}
           />
         </div>
