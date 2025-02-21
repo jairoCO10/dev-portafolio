@@ -13,7 +13,7 @@ export const ArticleSchema = z.object({
 
 export type Article = z.infer<typeof ArticleSchema>;
 
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'https://api-article.onrender.com';
 
 export async function getArticles(): Promise<Article[]> {
   try {
