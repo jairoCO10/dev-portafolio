@@ -37,6 +37,22 @@ export function FeaturedProjects() {
             description="Una web diseñada para mostrar quiénes son y a qué se dedican"
             tech={["React", "Vite", "Typescript", "TailwindCSS",]}
           />
+         <ProjectCard
+            icons={[
+              <div className="flex justify-between items-center w-full">
+                <Server className="mr-2 h-8 w-8" />
+                <a  className="ml-auto h-8 w-8" href="https://github.com/jairoCO10/sql-editor-interface" target="_blank" rel="noopener noreferrer">
+                  <Github/>
+                </a>
+                <a  className="h-8 w-8" href="https://sql-editor-interface.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <LucideLink />
+                </a>
+              </div>,
+            ]}
+            title="sql-editor-interface"
+            description="Una web diseñada para gestionar bases de datos"
+            tech={["React", "Vite", "Typescript", "TailwindCSS",]}
+          />
           
         </div>
       </Container>
